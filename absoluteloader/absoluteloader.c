@@ -14,7 +14,7 @@ void main(){
     
     while(strcmp(input,"E") != 0){
         if(strcmp(input,"H") == 0){
-            fscanf(inputfile,"%x",&address);
+            fscanf(inputfile,"%x",&start);
             fscanf(inputfile,"%d",&length);
             fscanf(inputfile,"%s",input);
         }
