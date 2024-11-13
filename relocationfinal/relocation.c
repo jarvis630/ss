@@ -17,7 +17,7 @@ void main() {
 
     while(fscanf(in, "%s", input) == 1 && strcmp(input, "END") != 0) {
         if (strcmp(input, "H") == 0) {
-            fscanf(in, "%x %s %x", &head_start, head_name, &tlen);
+            fscanf(in, "%s %x %x", head_name, &head_start, &tlen);
         }
         else if (strcmp(input, "T") == 0) {
             fscanf(in, "%x %x %s", &address, &tlen, bitmask);
